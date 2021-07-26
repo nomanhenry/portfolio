@@ -24,9 +24,8 @@ function App() {
 
   useEffect(()=>{
     if (window.performance) {
-      if (performance.navigation.type == 1) {
-        history.push('/portfolio')
-      }
+      
+       history.push('/portfolio')
     }
     if(window.location.href.includes('portfolio')){
       history.push('/')
