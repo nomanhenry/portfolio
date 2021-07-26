@@ -11,7 +11,7 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Route, Switch as Switching } from "react-router";
+import { Route, Switch as Switching, useHistory } from "react-router";
 import Switch from '@material-ui/core/Switch'
 import { IconButton } from "@material-ui/core";
 
@@ -20,11 +20,14 @@ function App() {
   const [theme, setTheme] = useState('dark-theme');
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
+  let history = useHistory();
 
   useEffect(()=>{
-    <HomePage/>
+    if(window.location.href.includes('portfolio')){
+      history.push('/')
+    }
     document.documentElement.className = theme;
-  }, [theme]);
+  }, []);
 
   const themeToggler = () =>{
     if(theme === 'light-theme'){
