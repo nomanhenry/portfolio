@@ -22,6 +22,7 @@ function App() {
   const [navToggle, setNavToggle] = useState(false);
 
   useEffect(()=>{
+    <HomePage/>
     document.documentElement.className = theme;
   }, [theme]);
 
