@@ -19,9 +19,7 @@ function ImageSection() {
                     <div className="info-title">
                         <p>Full Name</p>
                         <p>University</p>
-                        <br></br>
                         <p>Degree</p>
-                        <br></br>
                         <p>Nationality </p>
                         <p>Languages </p>
                         <p>Location</p>
@@ -29,8 +27,8 @@ function ImageSection() {
                     </div>
                     <div className="info">
                         <p>: Noman Henry</p>
-                        <p>: Capital University of Science and Technology</p>
-                        <p>: Bachelor's in Software Engineering</p>
+                        <p>: CUST</p>
+                        <p>: SE</p>
                         <p>: Pakistani </p>
                         <p>: Urdu, English </p>
                         <p>: Islamabad, Pakistan</p>

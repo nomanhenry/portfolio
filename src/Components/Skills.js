@@ -13,73 +13,73 @@ function Skills() {
                     <div className="skills">
                         <ProgressBar 
                             title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'CSS3'}
-                            width={'90%'}
-                            text={'90%'}
-                        />
-                        <ProgressBar 
-                            title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
-                        />
-                        <ProgressBar 
-                            title={'Mongo DB'}
-                            width={'60%'}
-                            text={'60%'}
-                        />
-                        <ProgressBar 
-                            title={'MS-SQL DB'}
-                            width={'60%'}
-                            text={'60%'}
-                        />
-                        <ProgressBar 
-                            title={'PYTHON'}
                             width={'95%'}
                             text={'95%'}
                         />
                         <ProgressBar 
+                            title={'CSS3'}
+                            width={'95%'}
+                            text={'95%'}
+                        />
+                        <ProgressBar 
+                            title={'JAVASCRIPT'}
+                            width={'95%'}
+                            text={'95%'}
+                        />
+                        <ProgressBar 
+                            title={'Mongo DB'}
+                            width={'80%'}
+                            text={'80%'}
+                        />
+                        <ProgressBar 
+                            title={'MS-SQL DB'}
+                            width={'85%'}
+                            text={'85%'}
+                        />
+                        <ProgressBar 
+                            title={'PYTHON'}
+                            width={'85%'}
+                            text={'85%'}
+                        />
+                        <ProgressBar 
                             title={'React JS'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'95%'}
+                            text={'95%'}
                         />
                         <ProgressBar 
                             title={'Node JS'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
                             title={'Express JS'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                          <ProgressBar 
                             title={'FireBase'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'85%'}
+                            text={'85%'}
                         />
                           <ProgressBar 
                             title={'ActiveReport JS'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                           <ProgressBar 
                             title={'Apache SOLR'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                            <ProgressBar 
                             title={'C#'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                            <ProgressBar 
                             title={'.Net/.NetCore'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                     </div>
                 </InnerLayout>

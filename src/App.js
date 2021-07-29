@@ -23,10 +23,7 @@ function App() {
   let history = useHistory();
 
   useEffect(()=>{
-    if (window.performance) {
-      
-       history.push('/portfolio')
-    }
+ 
     if(window.location.href.includes('portfolio')){
       history.push('/')
     }

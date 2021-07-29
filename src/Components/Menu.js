@@ -14,20 +14,20 @@ function Menu({menuItem}) {
                             <div className="portfolio-image">
                                 <img src={item.image} alt=""/>
                                 <ul>
-                                    <li>
-                                        <a href={item.link1}>
+                                    {/* <li>
+                                        <a href={item.link1} target="_blank">
                                             <GitHub />
                                         </a>
-                                    </li>
+                                    </li> */}
                                     <li>
-                                        <a href={item.link2}>
+                                        <a href={item.link2} target="_blank">
                                             <VisibilityIcon />
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <h6>{item.title}</h6>
-                            <p>{item.text}</p>
+                            <TextStyled>{item.text}</TextStyled>
                         </div>
                     </div>
                 })
@@ -35,6 +35,38 @@ function Menu({menuItem}) {
         </MenuItemStyled>
     )
 }
+
+const TextStyled = styled.p`
+
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+	:hover {
+    overflow: visible; 
+    white-space: normal; 
+    width: auto;
+	}
+
+/*     
+   word-break: break-word;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px; 
+   max-height: 32px; 
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+
+   &:hover,
+  &:focus {
+    overflow: visible; 
+    white-space: normal; 
+    width: auto;
+  
+    } */
+`;
 
 const MenuItemStyled = styled.div`
     display: grid;

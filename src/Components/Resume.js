@@ -22,19 +22,19 @@ function Resume() {
                         year={'2021 March - Present'} 
                         title={'Full Stack Developer'}
                         subTitle={'Sequel Technologies'}
-                        text={'Responsible to develop client/server side coding using React + .Net Framework/ .Net Core. '} 
+                        text={' * Work as Front-End and Back-End Developer for Electronic Data Interchange, Electronic Health Records, Electronic Project Management and Active Reporting Tool Products using ReactJS, .Net/Core, ActiveReportJS ETC. * Integrate Code and share between teams on Azure DevOps. * Deploy Code on Azure App Services. '} 
                     />
                     <ResumeItem 
                         year={'2020 Jan - 2021 March'} 
                         title={'API Developer'}
                         subTitle={'Medical Transcription and Billing Company. (MTBC)'}
-                        text={'Responsible to develop API\'s for web and mobile application in .Net Framework/ .Net Core. '} 
+                        text={'Work as API Developer for WEB (talkEHR, talkPHR, webEHR ETC) and MOBILE (talkCheckIN, iRX ETC) Products and Develop Smart Searches API for these products to enhance search performance using Apache SOLR, .Net/Core. * Integrate Code and share between team using TFS. * Deploy API on IIS Server. '} 
                     />
                     <ResumeItem 
                         year={'2017 July - 2017 Sep'} 
                         title={'.Net Developer (Internship)'}
                         subTitle={'Eziline Software House Pvt Ltd'}
-                        text={'Responsible to develop Enterprise Application in .Net Framework. '} 
+                        text={'Work as .Net Back-End Developer for Managemnet System to develop using .Net Framework. '} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">

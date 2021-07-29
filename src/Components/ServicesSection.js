@@ -16,7 +16,7 @@ function ServicesSection() {
                     <ServiceCard 
                         image={design} 
                         title={'Web Developer'} 
-                        paragraph={'Hire me to develop Web Application using React + Node/.Net.'}
+                        paragraph={'Hire me to develop Web Application using React + Node OR .Net/Core.'}
                     />
                      <div className="mid-card">
                         <ServiceCard 
